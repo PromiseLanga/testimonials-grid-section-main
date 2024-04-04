@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color1:  hsl(263, 55%, 52%);
+    --color2: hsl(217, 19%, 35%);
+    --color3: hsl(219, 29%, 14%);
+    --color4: hsl(0, 0%, 100%);
+    --color5: hsl(0, 0%, 81%);
+    --color6: hsl(210, 46%, 95%);
+    --color7: hsl(267, 29%, 60%);
+}
+
+body {
+    background-color: var(--color6);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    background-color: var(--color6);
+  
+}
+
+.first-testamonial {
+    background-color: var(--color1);
+    /*background-image: url('bg-pattern-quotation.svg');*/
+    border-radius: 10px;
+    grid-column: 1 / span 2;
+   
+    
+}
+
+.second-testamonial {
+    background-color: var(--color2);
+    border-radius: 10px;
+}
+
+.third-testamonial {
+    background-color: var(--color4);
+    border-radius: 10px;
+}
+
+.fourth-testamonial {
+    background-color: var(--color3);
+    border-radius: 10px;
+    grid-column: 2 / span 2;
+}
+
+.fifth-testamonial {
+    background-color: var(--color4);
+    border-radius: 10px;
+    grid-row: span 2;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+img {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+.image1 {
+    border: 2px solid var(--color7);
+}
+
+.image2 {
+    border: 2px solid var(--color1);
+}
+
+
+
+.p-grad, .white-font, .dark-grey-font {
+    margin-left: 50px;
+}
+
+
+ p {
+    margin-right:25px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.white-font {
+    color: var(--color4);
+    
+}
+
+.dark-grey-font {
+    color: var(--color2)
+}
+
+
+
+p {
+    font-size: 18px;
+    
+}
+
+.p-grad, q {
+    color: var(--color5);
+}
+
+#p-white {
+    color: var(--color4);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#p-grey {
+    color: var(--color2);
+    font-weight: 500;
+    font-size: 25px;
+}
