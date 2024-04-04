@@ -21,6 +21,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     background-color: var(--color6);
+    
   
 }
 
@@ -56,6 +57,7 @@ body {
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+    
     
 }
 
